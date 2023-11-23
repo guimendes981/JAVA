@@ -40,3 +40,31 @@
 - Códigos de status HTTP
 
 
+## 6. REST
+- Representational State Transfer
+- Estilo de arquitetura de software
+- Define um conjunto de regras para criação de web services
+- Formato de dados leve e legível por humanos
+
+
+## 7. JSON
+- JavaScript Object Notation
+- Formato de dados leve e legível por humanos
+- Formato de dados utilizado em APIs REST
+-EXEMPLO:
+```
+{
+    "nome": "João",
+    "idade": 30,
+    "endereco": {
+        "rua": "Rua 1",
+        "numero": 10
+    }
+    filmes: [
+        "filme 1",
+        "filme 2"
+    ]
+}
+```
+
+
