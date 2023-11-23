@@ -51,7 +51,7 @@
 - JavaScript Object Notation
 - Formato de dados leve e legível por humanos
 - Formato de dados utilizado em APIs REST
--EXEMPLO:
+- EXEMPLO:
 ```
 {
     "nome": "João",
