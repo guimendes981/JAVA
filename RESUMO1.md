@@ -67,4 +67,9 @@
 }
 ```
 
+## 8. SOFTWARES NECESSÁRIOS
+- IDE: Eclipse ou IntelliJ
+- JDK: Java Development Kit
+- Postman
+
 
