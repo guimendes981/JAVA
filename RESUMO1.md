@@ -73,3 +73,12 @@
 - Postman
 
 
+## 9. APIs RESTFUL
+- API é um conjunto de regras e protocolos que permite que diferentes aplicações se comuniquem entre si
+- Determina como os componentes de software devem interagir 
+- Interface para a comunicação entre diferentes softwares
+-Abstracao de Funcionalidades
+-Padrão de comunicação
+-Versioanmento de API
+-Exemplos: Facebook, Twitter, Google Maps, Youtube, etc
+
