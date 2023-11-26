@@ -146,7 +146,7 @@ public class Pessoa {
 
 - String nome = "João": declara uma variável do tipo String com o nome nome e atribui o valor "João"
 
--main: método principal, ponto de entrada de uma aplicação Java
+- main: método principal, ponto de entrada de uma aplicação Java
 
 - public: modificador de acesso, indica que o método é público e pode ser acessado por qualquer classe
 
