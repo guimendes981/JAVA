@@ -82,3 +82,74 @@
 -Versioanmento de API
 -Exemplos: Facebook, Twitter, Google Maps, Youtube, etc
 
+
+## 10. MODELO
+- Modelo de dados
+- Representação de um objeto
+- Atributos e comportamentos
+- Classe
+- Objeto
+
+
+## 11. ESTRUTURA DE PASTAS NO INTELIJ
+- src/main/java
+- src/main/resources
+- src/test/java
+
+
+## 12. CONSTRUTOR
+- Método especial para criar objetos
+- Mesmo nome da classe
+- Sem retorno, void
+- Pode receber parâmetros
+- Exemplo de construtor sem parâmetros:
+```
+public class Pessoa {
+    public Pessoa() {
+    }
+}
+```
+
+- Exemplo de construtor com parâmetros:
+```
+public class Pessoa {
+    public Pessoa(String nome, int idade) {
+    }
+}
+```
+
+## 13. GETTERS E SETTERS
+- Métodos para acessar e modificar atributos
+- Getters: retorna o valor do atributo
+- Setters: modifica o valor do atributo
+- Exemplo de getters e setters:
+```
+public class Pessoa {
+    private String nome;
+    private int idade;
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+}
+```
+
+
+
