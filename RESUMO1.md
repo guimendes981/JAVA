@@ -273,6 +273,34 @@ public class HelloWorldController {
 }
 ```
 
+#### EXEMPLO DE UM SERVICE
+```
+@Service
+public class HelloWorldService {
+
+  public String teste(){
+    return "Hello World!";
+  }
+}
+```
+
+#### EXEMPLO DE UM MODEL
+```
+@Data
+public class HelloWorldModel {
+  private String mensagem = "Hello World!";
+}
+```
+```
+
+
+#### SIGNIFICADO DOS COMANDOS
+- @RestController: indica que a classe é um controller, basicamente diz que é uma api rest
+- @RequestMapping é a rota do navegador, no caso localhost:8080/teste
+- @GetMapping: indica que o método será executado quando houver uma requisição GET para a rota /teste
+
+
+
 
 
 
