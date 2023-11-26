@@ -222,6 +222,7 @@ public class Pessoa {
 ## 14. IMPORTANTE
 - Por precaução sempre deixe o xampp ligado antes de iniciar o projeto
 - Sempre que for iniciar o projeto, inicie o xampp primeiro
+- Fazemos os contrutores e getters e setters fora da main e chamamos eles dentro da main instanciando um objeto
 
 
 ## 15. TESTE SIMPLES DA AULA1
