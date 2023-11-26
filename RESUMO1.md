@@ -309,6 +309,12 @@ public class HelloWorldModel {
 - A mesma rota que colocamos no @RequestMapping
 
 
+# ATALHOS IMPORTANTES ATÉ AGORA
+- CTRL + SHIFT + O: IMPORTA AS CLASSES NECESSÁRIAS
+- BOTÃO DIREITO DO MOUSE + GENERATE: GERA OS GETTERS E SETTERS
+- BOTÃO DIREITO DO MOUSE + GENERATE: GERA O CONSTRUTOR
+- sout + TAB: GERA O System.out.println("");
+- main + TAB: GERA O MÉTODO MAIN
 
 
 
