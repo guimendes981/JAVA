@@ -248,5 +248,32 @@ public class Aula1 {
 ```
 
 
+# AULA 2
+
+## 1. PADRÃO DE ARQUITETURA MVC
+- Model View Controller
+- Separação de responsabilidades
+- Model: modelo de dados, regras de negócio, acesso a dados
+- View: interface gráfica
+- Controller: controla o fluxo de execução, recebe requisições, processa dados, retorna respostas
+- ISOLAMOS AS CAMADAS PARA FACILITAR A MANUTENÇÃO DO CÓDIGO
+
+ 
+#### EXEMPLO DE UM CONTROLLER
+```
+@RestController
+@RequestMapping("/teste")
+public class HelloWorldController {
+
+  @GetMapping
+  public String teste(){
+    HelloWorldService service = New HelloWorldService();
+    return service.teste();
+  }
+}
+```
+
+
+
 
 
