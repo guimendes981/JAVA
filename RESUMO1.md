@@ -315,7 +315,7 @@ public class HelloWorldModel {
 - BOTÃO DIREITO DO MOUSE + GENERATE: GERA O CONSTRUTOR
 - sout + TAB: GERA O System.out.println("");
 - main + TAB: GERA O MÉTODO MAIN
-
+ 
 
 
 
