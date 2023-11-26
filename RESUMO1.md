@@ -230,6 +230,8 @@ public class Pessoa {
 
 -Coloque seu banco de dados para rodar no xampp
 
+-NÃO ESQUEÇA DAS IMPORTAÇÕES E PACOTES ANTES DE RODAR O PROJETO
+
 
 
 ```
@@ -243,5 +245,7 @@ public class Aula1 {
 
 
 ```
+
+
 
 
