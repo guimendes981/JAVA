@@ -291,7 +291,7 @@ public class HelloWorldModel {
   private String mensagem = "Hello World!";
 }
 ```
-```
+
 
 
 #### SIGNIFICADO DOS COMANDOS
@@ -301,6 +301,12 @@ public class HelloWorldModel {
 - @Service: indica que a classe é um service
 - @Data: cria os getters e setters automaticamente
 
+
+##### Como testamos a aplicação?
+- Iniciamos o xampp
+- Iniciamos o projeto
+- Chamamos a rota no postman localhost:8080/teste
+- A mesma rota que colocamos no @RequestMapping
 
 
 
