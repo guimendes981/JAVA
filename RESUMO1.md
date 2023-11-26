@@ -219,5 +219,29 @@ public class Pessoa {
 }
 ```
 
+## 14. IMPORTANTE
+- Por precaução sempre deixe o xampp ligado antes de iniciar o projeto
+- Sempre que for iniciar o projeto, inicie o xampp primeiro
+
+
+## 15. TESTE SIMPLES DA AULA1
+
+-No meu caso coloquei o apache para rodar na PORTA 8070 e o projeto na PORTA 8080 pois estava dando conflito
+
+-Coloque seu banco de dados para rodar no xampp
+
+
+
+```
+public class Aula1 {
+    public static void main(String[] args) {
+        SpringApplication.run(JavaApplication.class, args);
+
+        System.out.println("Funcionou!");
+    }
+}
+
+
+```
 
 
