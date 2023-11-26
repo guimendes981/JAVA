@@ -97,7 +97,75 @@
 - src/test/java
 
 
-## 12. CONSTRUTOR
+## 12. CLASSE
+- Modelo de dados
+- Representação de um objeto
+- Atributos e comportamentos
+- Exemplo de classe:
+```
+public class Pessoa {
+    private String nome;
+    private int idade;
+}
+```
+
+
+## 13. OBJETO
+
+- Instância de uma classe
+- Atributos com valores específicos
+- Exemplo de objeto:
+```
+Pessoa pessoa = new Pessoa();
+pessoa.nome = "João";
+pessoa.idade = 30;
+```
+
+
+
+## 14. ATRIBUTOS
+
+- Características de um objeto
+- Representam as partes que compõem um objeto
+- Exemplo de atributos:
+```
+public class Pessoa {
+    private String nome;
+    private int idade;
+}
+```
+
+
+
+
+## 15. PRINCIPAIS COMANDOS JAVA COM EXEMPLOS
+
+- System.out.println("Hello World"): imprime uma mensagem no console
+
+- int idade = 30: declara uma variável do tipo inteiro com o nome idade e atribui o valor 30
+
+- String nome = "João": declara uma variável do tipo String com o nome nome e atribui o valor "João"
+
+-main: método principal, ponto de entrada de uma aplicação Java
+
+- public: modificador de acesso, indica que o método é público e pode ser acessado por qualquer classe
+
+- static: indica que o método é estático, ou seja, pertence à classe e não a uma instância da classe
+
+- void: indica que o método não possui retorno
+
+- String[] args: parâmetro do método main, é um array de Strings
+
+- System.out.println(): imprime uma mensagem no console
+
+- System.out.print(): imprime uma mensagem no console
+
+
+
+
+
+
+## 16. CONSTRUTOR
 - Método especial para criar objetos
 - Mesmo nome da classe
 - Sem retorno, void
