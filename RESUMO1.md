@@ -351,5 +351,33 @@ public class HelloWorldModel {
 
 
 
+# AULA 5
+
+### JPA
+- Java Persistence API
+- Especificação para persistência de dados
+- Mapeamento objeto-relacional
+- ORM: Object Relational Mapping
+- Mapeamento de classes Java para tabelas de banco de dados
+- Mapeamento de atributos para colunas
+
+##### Controller -> Service -> Repository -> Banco de Dados
+
+
+
+###### COMANDOS USADOS 
+- @Entity: indica que a classe é uma entidade
+- @Id: indica que o atributo é uma chave primária
+- @GeneratedValue: indica que o valor do atributo é gerado automaticamente
+- @Column: indica que o atributo é uma coluna
+- findall: retorna todos os registros
+- findbyid: retorna um registro pelo id
+- save: salva um registro
+- deletebyid: deleta um registro pelo id
+- @RequestBody: indica que o parâmetro da requisição é um objeto
+
+
+
+
 
 
