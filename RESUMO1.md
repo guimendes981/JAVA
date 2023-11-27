@@ -333,5 +333,23 @@ public class HelloWorldModel {
     
 
 
+# AULA 3 e 4 
+
+- Facade: é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework ou qualquer conjunto complexo de classes.
+
+- DTO: Data Transfer Object, é um padrão de projeto de software usado para transferir dados entre subsistemas de um software. DTOs são frequentemente usados em conjunção com objetos de acesso a dados para obter dados de um banco de dados.
+
+- Controller: controla o fluxo de execução, recebe requisições, processa dados, retorna respostas
+
+- Service: regras de negócio, acesso a dados
+
+- Model: modelo de dados, basicamente uma classe com atributos e getters e setters
+
+- Repository: acesso a dados
+
+- Entity: representa uma tabela do banco de dados
+
+
+
 
 
