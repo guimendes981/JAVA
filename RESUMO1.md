@@ -318,5 +318,20 @@ public class HelloWorldModel {
  
 
 
+ # ANOTAÇÕES IMPORTANTES
+    - @RestController: indica que a classe é um controller, basicamente diz que é uma api rest
+    - @RequestMapping é a rota do navegador, no caso localhost:8080/teste
+    - @GetMapping: indica que o método será executado quando houver uma requisição GET para a rota /teste
+    - @Service: indica que a classe é um service
+    - @Data: cria os getters e setters automaticamente
+    - @ResponseEntity: retorna uma resposta personalizada
+    - @PathVariable: indica que o parâmetro da rota é uma variável
+    - @RequestBody: indica que o parâmetro da requisição é um objeto
+    - @PostMapping: indica que o método será executado quando houver uma requisição POST para a rota /teste
+    - @PutMapping: indica que o método será executado quando houver uma requisição PUT para a rota /teste
+    - @DeleteMapping: indica que o método será executado quando houver uma requisição DELETE para a rota /teste
+    
+
+
 
 
