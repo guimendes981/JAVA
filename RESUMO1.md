@@ -1,5 +1,33 @@
 # RESUMO 1 JAVA
 
+
+
+# PASSO A PASSO PARA CRIAR UM PROJETO 
+
+- LIGAR O XAMPP
+- CRIAR UM PROJETO NO SPRING INITIALIZR
+- SELECIONAR AS DEPENDÊNCIAS NECESSÁRIAS (NO CASO, SPRING WEB, SPRING DATA JPA, MYSQL DRIVER E VALIDATION)
+- BAIXAR O PROJETO
+- IMPORTAR O PROJETO NO INTELLIJ
+- CRIAR O BANCO DE DADOS E LIGAR ELE PELO INTELIIJ EM APPLICATION PROPERTIES
+- AJUSTAR O POM.XML
+- CRIAR A ESTRUTURA DE PASTAS
+- EXEMPLOAPPLICATION.JAVA FICA NA PASTA PRINCIPAL
+- CRIAR MODELO, REPOSITORY, SERVICE E CONTROLLER
+- PRIMEIRO CRIAR OS MODELOS NECESÁRIOS
+- CRIAR O REPOSITORY
+- CRIAR O SERVICE
+- CRIAR O CONTROLLER
+- CRIAR OS MÉTODOS NO CONTROLLER
+- CRIAR OS MÉTODOS NO SERVICE
+
+
+## ESTRUTURA
+- MODEL -> CONTROLLER -> SERVICE -> REPOSITORY -> BANCO DE DADOS
+
+
+
+
 ## 1. JDK
 - Java Development Kit
 - Conjunto de ferramentas para desenvolvimento Java
@@ -375,6 +403,40 @@ public class HelloWorldModel {
 - save: salva um registro
 - deletebyid: deleta um registro pelo id
 - @RequestBody: indica que o parâmetro da requisição é um objeto
+- @ResponseEntity: retorna uma resposta personalizada
+- @Autowired: injeta uma dependência, uma instância da classe
+
+- @ManyToOne: indica que a relação é de muitos para um
+- @OneToMany: indica que a relação é de um para muitos
+- @JsonIgnore ou @JsonIgnoreProperties: ignora o atributo na serialização do JSON
+
+
+
+
+##### SEMPRE LEMBRAR QUE SE NÃO PASSARMOS ROTA PARA OS MÉTODOS, ELES SERÃO EXECUTADOS QUANDO HOUVER UMA REQUISIÇÃO GET PARA A ROTA DO CONTROLLER(PRINCIPAL)
+
+##### SEMPRE FILTRAR POR ID NA ROTA QUANDO FOR FAZER ALGO ESPECÍFICO COM UM REGISTRO
+
+
+### ANOTAÇÕES IMPORTANTES
+
+- Verificar estrutura de pastas
+- Verificar se o xampp está ligado
+- Verificar se o banco de dados está rodando
+- Verificar se o projeto está rodando
+- Verificar se o projeto está na porta correta
+- Verificar se o projeto está na rota correta
+- Verificar se o projeto está com as dependências corretas
+- Verificar se o projeto está com as importações corretas
+- Primeiro criar o model, depois o repository, depois o service e por último o controller
+- Model: modelo de dados, basicamente uma classe com atributos e getters e setters
+- Repository: acesso a dados
+- Service: regras de negócio, acesso a dados
+- Controller: controla o fluxo de execução, recebe requisições, processa dados, retorna respostas
+- Os metodos sao feitos no controller, mas a lógica é feita no service
+- Por exemplo o @GetMapping("/pessoas") é a rota que vai ser chamada no navegador, e o método que vai ser executado é o findAll() que está no service, mas o @GetMapping("/pessoas") está no controller
+
+
 
 
 
